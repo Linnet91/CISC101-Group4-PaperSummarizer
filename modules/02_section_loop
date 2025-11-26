@@ -1,6 +1,12 @@
+Edited on 25-11-26. Created variable "Summary levels" and added summary levels "short" and "detailed". 
+
 ## 2. Section Loop
 - Iterate through each section in order.  
 - Generate one key point sentence per section.  
 - Create expert summary (3–5 sentences) using technical terminology.  
 - Create lay summary (2–4 sentences) in plain language.  
 - Validate constraints and insert warnings if needed.
+- Create variable: Summary_level
+- If summary_level = "short"; generate only a compact summary.
+- If summary_level = "detailed"; generate summary + bullet list.
+
