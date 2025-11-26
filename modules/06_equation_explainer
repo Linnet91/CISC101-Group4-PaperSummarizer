@@ -1,1 +1,6 @@
-
+6. Equation Explainer
+Detect inline and displayed equations.  
+Extract equation text and context.  
+Provide plain-language explanation of each equation’s role.  
+Do not invent or alter equations.  
+Render concise list of equations with explanations.
