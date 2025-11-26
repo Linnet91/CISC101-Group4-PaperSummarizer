@@ -1,3 +1,5 @@
+Added "Strict Evidence Mode" and "Standardized Section Warnings"
+
 ## 3. Guardrails
 - Warn for missing/empty sections.
 - Flag short sections (<50 words).
