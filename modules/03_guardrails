@@ -1,0 +1,6 @@
+## 3. Guardrails
+- Warn for missing/empty sections.  
+- Flag short sections (<50 words).  
+- Prevent hallucinations; only use provided text.  
+- Chunk long papers by section boundaries.  
+- Ensure equations and citations are only from text.
