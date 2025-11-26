@@ -1,0 +1,6 @@
+## 5. Citation Extractor
+- Parse references and in-text citations.  
+- Preserve original citation text and order.  
+- Deduplicate entries if needed.  
+- Reject fabricated or external citations.  
+- Map in-text indices to bibliography entries.
