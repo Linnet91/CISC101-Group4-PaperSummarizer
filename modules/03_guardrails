@@ -1,15 +1,6 @@
-Added "Strict Evidence Mode" and "Standardized Section Warnings"
-
 ## 3. Guardrails
-- Warn for missing/empty sections.
-- Flag short sections (<50 words).
-- Prevent hallucinations; only use provided text.
-- Chunk long papers by section boundaries.
+- Warn for missing/empty sections.  
+- Flag short sections (<50 words).  
+- Prevent hallucinations; only use provided text.  
+- Chunk long papers by section boundaries.  
 - Ensure equations and citations are only from text.
-- Strict Evidence Mode
-  * Add flag evidence_mode = "strict".
-  * In strict mode: only use claims/results explicitly found in text.
-  * If insufficient info: output a message (e.g., “Not enough detail for strict evidence summary.”).
-- Standardized Section Warnings
-  * Missing/empty section → output “Section skipped: no usable text provided.”
-  * Too short (<50 words) → output “Section very short: summary may be incomplete.”
